@@ -1,1 +1,20 @@
-ewogICJuYW1lIjogIndpdGNoZXNicmV3IiwKICAicHJpdmF0ZSI6IHRydWUsCiAgInZlcnNpb24iOiAiMC4wLjEiLAogICJ0eXBlIjogIm1vZHVsZSIsCiAgInNjcmlwdHMiOiB7CiAgICAiZGV2IjogInZpdGUiLAogICAgImJ1aWxkIjogInZpdGUgYnVpbGQiLAogICAgInByZXZpZXciOiAidml0ZSBwcmV2aWV3IiwKICAgICJsaW50IjogImVzbGludCAuIC0tZXh0IGpzLGpzeCIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAicmVhY3QiOiAiXjE4LjMuMSIsCiAgICAicmVhY3QtZG9tIjogIl4xOC4zLjEiCiAgfSwKICAiZGV2RGVwZW5kZW5jaWVzIjogewogICAgIkB2aXRlanMvcGx1Z2luLXJlYWN0IjogIl40LjMuMCIsCiAgICAidml0ZSI6ICJeNi4zLjAiCiAgfQp9Cg==
+{
+  "name": "witchesbrew",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^6.3.0"
+  }
+}

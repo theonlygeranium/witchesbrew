@@ -1,1 +1,22 @@
-aW1wb3J0ICcuL2luZGV4LmNzcycKCmZ1bmN0aW9uIEFwcCgpIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImFwcCI+CiAgICAgIDxoMT53aXRjaGVzYnJldzwvaDE+CiAgICAgIDxwPlJlcGxhY2UgdGhpcyB3aXRoIHlvdXIgYXBwbGljYXRpb24uPC9wPgogICAgICA8cCBjbGFzc05hbWU9Im1ldGEiPgogICAgICAgIEhvc3RlZCBvbnsnICd9CiAgICAgICAgPGEgaHJlZj0iaHR0cHM6Ly9wYWdlcy5jbG91ZGZsYXJlLmNvbSIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9yZWZlcnJlciI+CiAgICAgICAgICBDbG91ZGZsYXJlIFBhZ2VzCiAgICAgICAgPC9hPnsnICd9CiAgICAgICAgwrcgQnVpbHQgYnl7JyAnfQogICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vZWRzdHJhdHVtbGFicy5haSIgdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9yZWZlcnJlciI+CiAgICAgICAgICBFZFN0cmF0dW0gTGFicwogICAgICAgIDwvYT4KICAgICAgPC9wPgogICAgPC9kaXY+CiAgKQp9CgpleHBvcnQgZGVmYXVsdCBBcHAK
+import './index.css'
+
+function App() {
+  return (
+    <div className="app">
+      <h1>witchesbrew</h1>
+      <p>Replace this with your application.</p>
+      <p className="meta">
+        Hosted on{' '}
+        <a href="https://pages.cloudflare.com" target="_blank" rel="noreferrer">
+          Cloudflare Pages
+        </a>{' '}
+        · Built by{' '}
+        <a href="https://edstratumlabs.ai" target="_blank" rel="noreferrer">
+          EdStratum Labs
+        </a>
+      </p>
+    </div>
+  )
+}
+
+export default App

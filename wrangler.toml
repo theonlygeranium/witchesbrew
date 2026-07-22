@@ -1,1 +1,6 @@
-IyB3cmFuZ2xlci50b21sIOKAlCBDbG91ZGZsYXJlIFBhZ2VzIGJ1aWxkIGNvbmZpZ3VyYXRpb24KIyBSZXBsYWNlICJ3aXRjaGVzYnJldyIgd2l0aCB5b3VyIGFjdHVhbCBwcm9qZWN0IG5hbWUuCiMgVXNlIHBhZ2VzX2J1aWxkX291dHB1dF9kaXIg4oCUIE5PVCBbc2l0ZV0gYnVja2V0ICh0aGF0J3MgV29ya2VycyBTaXRlcykuCm5hbWUgPSAid2l0Y2hlc2JyZXciCmNvbXBhdGliaWxpdHlfZGF0ZSA9ICIyMDI1LTAxLTAxIgpwYWdlc19idWlsZF9vdXRwdXRfZGlyID0gIi4vZGlzdCIK
+# wrangler.toml — Cloudflare Pages build configuration
+# Replace "witchesbrew" with your actual project name.
+# Use pages_build_output_dir — NOT [site] bucket (that's Workers Sites).
+name = "witchesbrew"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "./dist"

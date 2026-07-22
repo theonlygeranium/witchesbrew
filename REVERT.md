@@ -20,7 +20,7 @@ This document records the most recent verified stable state of the project and p
 
 ### Option 1 — Roll back on Schubert directly
 ```bash
-cd /opt/[REPO-NAME]
+cd /opt/[witchesbrew]
 sudo -u z121532 git fetch origin
 sudo -u z121532 git checkout v0.1-stable
 sudo bash scripts/deploy.sh

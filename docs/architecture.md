@@ -19,8 +19,8 @@
 
 | Component | Technology | Schubert Path | Port |
 |-----------|-----------|---------------|------|
-| <!-- e.g. Frontend --> | <!-- e.g. Next.js 15 --> | `/opt/[REPO-NAME]/frontend` | `3000` |
-| <!-- e.g. Backend --> | <!-- e.g. FastAPI --> | `/opt/[REPO-NAME]/backend` | `8000` |
+| <!-- e.g. Frontend --> | <!-- e.g. Next.js 15 --> | `/opt/[witchesbrew]/frontend` | `3000` |
+| <!-- e.g. Backend --> | <!-- e.g. FastAPI --> | `/opt/[witchesbrew]/backend` | `8000` |
 
 ---
 

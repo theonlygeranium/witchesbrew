@@ -8,10 +8,10 @@
 ## 1. What This Repository Is
 
 <!-- TODO: Replace this section with a concise description of the project. -->
-`[REPO-NAME]` is a **[brief description]** owned by EdStratum Labs.
+`[witchesbrew]` is a **[brief description]** owned by EdStratum Labs.
 
 **Live URL:** `https://[your-domain]`
-**Deployed on:** Schubert Nexus (`/opt/[REPO-NAME]/`)
+**Deployed on:** Schubert Nexus (`/opt/[witchesbrew]/`)
 **Owner contact:** `founder@edstratumlabs.ai`
 
 ---
@@ -31,7 +31,7 @@
 ## 3. Repository Structure and File Ownership
 
 ```
-[REPO-NAME]/
+[witchesbrew]/
 ├── AGENTS.md                   ← YOU ARE HERE — do not modify without authorization
 ├── CONTINUITY_BRIEF.md         ← Drop-in context for new agent sessions — keep current
 ├── README.md                   ← Project overview — update when architecture changes
@@ -126,7 +126,7 @@ This repo uses the **Schubert Hybrid Deploy** workflow:
 - **Primary path:** `self-hosted` runner (`schubert-local`) — LAN-native, fires on every push to `main`. No Tailscale, no SSH from GitHub infra.
 - **Fallback path:** GitHub-hosted runner + Tailscale OAuth — trigger manually via `workflow_dispatch → force_remote: true` when the self-hosted runner is offline.
 
-**Deployment target:** Schubert Nexus at `/opt/[REPO-NAME]/`
+**Deployment target:** Schubert Nexus at `/opt/[witchesbrew]/`
 **Deploy script:** `scripts/deploy.sh`
 **Required secrets:** `SCHUBERT_SSH_KEY`, `TS_OAUTH_CLIENT_ID`, `TS_OAUTH_SECRET` (pre-provisioned)
 
@@ -155,7 +155,7 @@ Do NOT restart or reconfigure any of the following without explicit human author
 - Always run git as `z121532`: `sudo -u z121532 git ...`
 - Never `sudo git pull` as root.
 - Python packages: use project venv.
-- Path casing matters: use the exact case of `/opt/[REPO-NAME]`.
+- Path casing matters: use the exact case of `/opt/[witchesbrew]`.
 
 ---
 

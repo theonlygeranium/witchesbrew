@@ -8,7 +8,7 @@
 - **Project name:** [PROJECT NAME]
 - **Owner:** EdStratum Labs (`founder@edstratumlabs.ai`)
 - **Live URL:** `https://[your-domain]`
-- **Repo:** `https://github.com/theonlygeranium/[REPO-NAME]` (private/public)
+- **Repo:** `https://github.com/theonlygeranium/[witchesbrew]` (private/public)
 - **Default branch:** `main` → auto-deploys to Schubert on push
 
 ---
@@ -20,13 +20,13 @@
 | <!-- e.g. Backend --> | <!-- e.g. FastAPI --> |
 | <!-- e.g. Database --> | <!-- e.g. PostgreSQL 18 --> |
 | CI/CD | GitHub Actions → Schubert self-hosted runner |
-| Deploy target | Schubert Nexus at `/opt/[REPO-NAME]/` |
+| Deploy target | Schubert Nexus at `/opt/[witchesbrew]/` |
 
 ---
 
 ## Repository Key Files
 ```
-[REPO-NAME]/
+[witchesbrew]/
 ├── AGENTS.md               ← Agent rules — read first
 ├── CONTINUITY_BRIEF.md     ← This file — update after every session
 ├── README.md               ← Human-readable overview
@@ -63,7 +63,7 @@
 <!-- List all required env vars. See .env.example for full list. -->
 | Variable | Description | Where Set |
 |----------|-------------|-----------|
-| `EXAMPLE_VAR` | Description | Schubert `/opt/[REPO-NAME]/.env` |
+| `EXAMPLE_VAR` | Description | Schubert `/opt/[witchesbrew]/.env` |
 
 ---
 

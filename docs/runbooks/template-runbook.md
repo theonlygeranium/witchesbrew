@@ -1,7 +1,7 @@
 # Runbook: [Operation Name]
 
 **Last updated:** YYYY-MM-DD
-**Applies to:** [REPO-NAME] on Schubert Nexus
+**Applies to:** [witchesbrew] on Schubert Nexus
 
 ---
 

@@ -5,7 +5,7 @@
 
 set -euo pipefail
 
-PROJECT_DIR="/opt/[REPO-NAME]"
+PROJECT_DIR="/opt/[witchesbrew]"
 SERVICE_NAME="[SERVICE-NAME].service"
 
 echo "=== [PROJECT NAME] Deploy Script ==="
